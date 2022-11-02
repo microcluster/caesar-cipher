@@ -14,7 +14,7 @@ def string_to_ascii(string)
 end
 
 # add shift factor to ascii and check value, if it isn't a letter shift and
-# wrap to the correct value otherwise return the corresponding value 
+# wrap to the correct value otherwise return the corresponding value
 def shift_string(string, shift_factor)
   string_to_ascii(string).map do |char|
     new_char = char + shift_factor
@@ -36,4 +36,3 @@ end
 # print the result
 puts "\nThe crypted value is:"
 puts ascii_to_string(user_string, user_factor)
-
