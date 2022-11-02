@@ -6,6 +6,9 @@ This is an example:
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/1024px-Caesar_cipher_left_shift_of_3.svg.png" height="100">
 
 *from Wikipedia*
+<<<<<<< HEAD
 
 ### Sub Strings
 Implement a method #substrings that takes a word as the first argument and then an array of valid substrings (your dictionary) as the second argument. It should return a hash listing each substring (case insensitive) that was found in the original string and how many times it was found.
+=======
+>>>>>>> a7bfae0db6520a86437ee83d0818651412bf5ba9
